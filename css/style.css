@@ -1,48 +1,43 @@
-body {
-  margin: 3em;
-  padding: 0;
-  font-family: sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-}
+html {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  
+  button {
+    border-radius: 50%;
+    /* Make the buttons round */
+    width: 50px;
+    /* Adjust the width of the buttons */
+    height: 50px;
+    /* Adjust the height of the buttons */
+    color: black;
+    border-color: #CCCCCC;
+  }
+  
+  #btn-red {
+    background-color: red;
+  }
+  
+  #btn-white {
+    background-color: white;
+  }
+  
+  #btn-blue {
+    background-color: blue;
+  }
+  
+  #btn-yellow {
+    background-color: yellow;
+  }
 
-li a {
-  display: block;
-  float: left;
-  width: 30px;
-  height: 30px;
-  margin: 0 15px 15px 0;
-  border-radius: 18px;
-  border: 3px solid black;
-}
-
-h1 {
-  line-height: 1.25;
-  margin: 1em 0 0;
-}
-p {
-  margin: 0.5em 0;
-}
-
-.switcher {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.red {
-  background-color: red;
-}
-
-.white {
-  background-color: white;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-color: yellow;
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    padding: 10px;
+    color: black;
+    text-align: center;
 }
